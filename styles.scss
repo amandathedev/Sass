@@ -1,0 +1,10 @@
+@mixin flex($direction) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $direction;
+}
+
+.container {
+  @include flex(column)
+}
